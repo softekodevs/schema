@@ -1,0 +1,90 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "name": "Contact Us",
+      "url": "https://example.com/contact",
+      "description": "Reach out to us for any inquiries, support, or assistance.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Your Company Name",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://example.com/logo.png"
+        },
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "telephone": "+1-800-123-4567",
+            "contactType": "Customer Service",
+            "areaServed": "US",
+            "availableLanguage": "English",
+            "email": "contact@example.com"
+          }
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "123 Example St.",
+          "addressLocality": "Example City",
+          "addressRegion": "EX",
+          "postalCode": "12345",
+          "addressCountry": {
+            "@type": "Country",
+            "name": "US"
+          }
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://example.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Contact Us",
+          "item": "https://example.com/contact"
+        }
+      ]
+    },
+    {
+      "@type": "ContactPage",
+      "name": "Contact Us",
+      "url": "https://example.com/contact",
+      "description": "Reach out to us for any inquiries, support, or assistance.",
+      "mainEntity": {
+        "@type": "Organization",
+        "name": "Your Company Name",
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "telephone": "+1-800-123-4567",
+            "contactType": "Customer Service",
+            "areaServed": "US",
+            "availableLanguage": "English",
+            "email": "contact@example.com"
+          }
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "123 Example St.",
+          "addressLocality": "Example City",
+          "addressRegion": "EX",
+          "postalCode": "12345",
+          "addressCountry": {
+            "@type": "Country",
+            "name": "US"
+          }
+        }
+      }
+    }
+  ]
+}
+</script>
