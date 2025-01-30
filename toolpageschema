@@ -3,169 +3,105 @@
   "@graph": [
     {
       "@type": "WebPage",
-      "url": "https://example.com/tools/gpa-calculator",
-      "name": "GPA Calculator - Calculate Your Grade Point Average | Example.com",
-      "description": "Free online GPA Calculator tool to easily calculate your semester or cumulative Grade Point Average. Support for different grading scales and weighted grades.",
-      "isPartOf": {
-        "@type": "WebSite",
-        "url": "https://example.com",
-        "name": "Example.com"
-      },
-      "primaryImageOfPage": {
-        "@type": "ImageObject",
-        "url": "https://example.com/images/gpa-calculator-hero.jpg",
-        "width": "1200",
-        "height": "630"
-      },
-      "datePublished": "2024-01-30",
-      "dateModified": "2025-01-30",
-      "author": {
+      "name": "Grade Calculator",
+      "url": "https://www.yourwebsite.com/grade-calculator",
+      "description": "A free, web-based grade calculator tool for students and educators to calculate and track academic performance.",
+      "publisher": {
         "@type": "Organization",
-        "name": "Example.com",
+        "name": "Your Company Name",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://example.com/logo.png",
-          "width": "600",
-          "height": "60"
+          "url": "https://www.yourwebsite.com/logo.png"
         }
       },
-      "keywords": "GPA calculator, grade point average calculator, college GPA, semester GPA, cumulative GPA, academic calculator",
-      "inLanguage": "en"
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "item": {
-            "@id": "https://example.com",
-            "name": "Home"
+      "mainEntityOfPage": "https://www.yourwebsite.com/grade-calculator",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.yourwebsite.com"
+          },
+           {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Calculator",
+            "item": "https://www.yourwebsite.com/calculator"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Grade Calculator",
+            "item": "https://www.yourwebsite.com/calculator/grade-calculator"
           }
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "item": {
-            "@id": "https://example.com/tools",
-            "name": "Tools"
-          }
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "item": {
-            "@id": "https://example.com/tools/gpa-calculator",
-            "name": "GPA Calculator"
-          }
-        }
-      ]
+        ]
+      }
     },
     {
       "@type": "SoftwareApplication",
-      "name": "GPA Calculator",
-      "applicationCategory": "WebApplication",
-      "applicationSubCategory": "EducationalApplication",
-      "operatingSystem": "Windows, macOS, Android, iOS",
+      "name": "Grade Calculator",
+      "url": "https://www.yourwebsite.com/grade-calculator",
+      "applicationCategory": "Educational",
+      "operatingSystem": "All Platforms",
+      "description": "A free, web-based grade calculator tool that helps students and teachers calculate grades and track academic progress.",
+      "softwareVersion": "1.0",
+      "author": {
+        "@type": "Organization",
+        "name": "Your Company Name"
+      },
+      "mainEntityOfPage": "https://www.yourwebsite.com/grade-calculator",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Your Company Name",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.yourwebsite.com/logo.png"
+        }
+      },
+      "screenshot": "https://www.yourwebsite.com/images/grade-calculator-screenshot.png",
+      "featureList": [
+        "Calculate grades based on multiple subjects",
+        "Visual charts and graphs for grade tracking",
+        "Customizable inputs for flexible use"
+      ],
+      "additionalType": "https://schema.org/Product", 
       "offers": {
         "@type": "Offer",
-        "price": "0",
+        "price": "0.00",
         "priceCurrency": "USD",
-        "availability": "https://schema.org/InStock",
-        "priceValidUntil": "2025-12-31"
+        "url": "https://www.yourwebsite.com/grade-calculator"
       },
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.8",
-        "bestRating": "5",
-        "worstRating": "1",
-        "ratingCount": "1250"
-      },
-      "featureList": "Multiple GPA scales (4.0, 5.0), Weighted grade calculation, Semester and cumulative GPA, Grade conversion",
-      "screenshot": {
-        "@type": "ImageObject",
-        "url": "https://example.com/images/gpa-calculator-screenshot.jpg",
-        "width": "1920",
-        "height": "1080"
+        "ratingValue": "4.5",
+        "reviewCount": "120"
       }
     },
     {
       "@type": "HowTo",
-      "name": "How to Calculate Your GPA",
-      "description": "Step-by-step guide to calculate your Grade Point Average using our GPA Calculator",
-      "totalTime": "PT5M",
-      "tool": [
-        {
-          "@type": "HowToTool",
-          "name": "GPA Calculator"
-        }
-      ],
+      "name": "How to Use the Grade Calculator",
+      "url": "https://www.yourwebsite.com/grade-calculator",
+      "description": "Follow these simple steps to use the Grade Calculator tool and track your academic progress.",
       "step": [
         {
           "@type": "HowToStep",
-          "name": "Enter Course Information",
-          "text": "Add your course names and credit hours",
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://example.com/images/step1-courses.jpg",
-            "width": "800",
-            "height": "600"
-          },
-          "url": "https://example.com/tools/gpa-calculator#step1",
-          "itemListElement": [
-            {
-              "@type": "HowToDirection",
-              "text": "Click 'Add Course' and enter course name"
-            },
-            {
-              "@type": "HowToDirection",
-              "text": "Input the number of credit hours"
-            }
-          ]
+          "name": "Enter Your Grades",
+          "text": "Start by entering your grades for each subject into the calculator.",
+          "image": "https://www.yourwebsite.com/images/step1.png"
         },
         {
           "@type": "HowToStep",
-          "name": "Input Grades",
-          "text": "Select your letter grade or percentage for each course",
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://example.com/images/step2-grades.jpg",
-            "width": "800",
-            "height": "600"
-          },
-          "url": "https://example.com/tools/gpa-calculator#step2",
-          "itemListElement": [
-            {
-              "@type": "HowToDirection",
-              "text": "Choose your grade from the dropdown menu"
-            },
-            {
-              "@type": "HowToTip",
-              "text": "Use the grade conversion chart if needed"
-            }
-          ]
+          "name": "Add New Subjects",
+          "text": "You can add new subjects and their corresponding grades as needed.",
+          "image": "https://www.yourwebsite.com/images/step2.png"
         },
         {
           "@type": "HowToStep",
-          "name": "Calculate GPA",
-          "text": "Click calculate to see your GPA result",
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://example.com/images/step3-calculate.jpg",
-            "width": "800",
-            "height": "600"
-          },
-          "url": "https://example.com/tools/gpa-calculator#step3",
-          "itemListElement": [
-            {
-              "@type": "HowToDirection",
-              "text": "Review your entries and click 'Calculate GPA'"
-            },
-            {
-              "@type": "HowToTip",
-              "text": "Save your calculation for future reference"
-            }
-          ]
+          "name": "View Results",
+          "text": "Once you have entered your grades, the calculator will display the overall grade, including visual graphs and progress charts.",
+          "image": "https://www.yourwebsite.com/images/step3.png"
         }
       ]
     },
@@ -174,37 +110,38 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "How is GPA calculated?",
+          "name": "Is the Grade Calculator free to use?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "GPA is calculated by multiplying each course grade point by the number of credit hours, adding these numbers, and dividing by the total number of credit hours. Our calculator automates this process for accuracy."
+            "text": "Yes, the Grade Calculator is completely free to use and is accessible online without any download required."
           }
         },
         {
           "@type": "Question",
-          "name": "What is the difference between weighted and unweighted GPA?",
+          "name": "Can I track grades for multiple subjects?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Weighted GPA gives bonus points for honors, AP, or IB courses (typically on a 5.0 scale), while unweighted GPA treats all classes equally on a 4.0 scale. Our calculator supports both methods."
+            "text": "Yes, the Grade Calculator allows you to input and track grades for multiple subjects simultaneously."
           }
         },
         {
           "@type": "Question",
-          "name": "Can I calculate my cumulative GPA?",
+          "name": "Do I need to create an account to use the Grade Calculator?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, you can calculate your cumulative GPA by including your previous GPA and total credit hours along with your current semester courses."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does this calculator work for all schools?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, our GPA calculator is customizable to work with different grading scales and systems used by various schools and universities. You can select your institution's specific grading scale."
+            "text": "No, you can use the Grade Calculator without creating an account. Simply enter your grades and start tracking your progress."
           }
         }
       ]
+    },
+    {
+      "@type": "VideoObject",
+      "name": "How to Use the Grade Calculator",
+      "description": "Watch this tutorial video to learn how to use the Grade Calculator tool effectively.",
+      "thumbnailUrl": "https://www.yourwebsite.com/video-thumbnail.jpg",
+      "uploadDate": "2024-01-30T10:00:00+00:00",
+      "contentUrl": "https://www.yourwebsite.com/grade-calculator-tutorial.mp4",
+      "embedUrl": "https://www.youtube.com/embed/your-video-id"
     }
   ]
 }
