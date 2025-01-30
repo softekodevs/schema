@@ -1,0 +1,165 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "name": "Your Website Name",
+      "url": "https://www.yourwebsite.com",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.yourwebsite.com/search?q={search_term}",
+        "query-input": "required name=search_term"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Your Company Name",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.yourwebsite.com/logo.png"
+        }
+      }
+    },
+    {
+      "@type": "WebPage",
+      "name": "Home",
+      "url": "https://www.yourwebsite.com",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://www.yourwebsite.com"
+      },
+      "about": {
+        "@type": "Organization",
+        "name": "Your Company Name"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.yourwebsite.com"
+          }
+        ]
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://www.yourwebsite.com/main-banner.jpg"
+      }
+    },
+    {
+      "@type": "Organization",
+      "name": "Your Company Name",
+      "url": "https://www.yourwebsite.com",
+      "logo": "https://www.yourwebsite.com/logo.png",
+      "sameAs": [
+        "https://www.facebook.com/yourpage",
+        "https://www.twitter.com/yourpage",
+        "https://www.linkedin.com/company/yourpage"
+      ],
+      "foundingDate": "2010-01-01",
+      "founders": [
+        {
+          "@type": "Person",
+          "name": "John Doe"
+        }
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Main St",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10001",
+        "addressCountry": "US"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-800-555-5555",
+        "contactType": "customer service",
+        "areaServed": "Worldwide",
+        "availableLanguage": "English"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does your company do?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our company specializes in software development, web design, and digital marketing."
+          },
+          "author": {
+            "@type": "Person",
+            "name": "John Doe"
+          },
+          "datePublished": "2024-01-30"
+        },
+        {
+          "@type": "Question",
+          "name": "How can I contact support?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can contact our support team at support@yourwebsite.com or call +1-800-555-5555."
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Jane Smith"
+          },
+          "datePublished": "2024-01-30"
+        }
+      ]
+    },
+    {
+      "@type": "VideoObject",
+      "name": "Welcome to Our Website",
+      "description": "This is an introduction video about our services and products.",
+      "thumbnailUrl": "https://www.yourwebsite.com/video-thumbnail.jpg",
+      "uploadDate": "2024-01-30T10:00:00+00:00",
+      "contentUrl": "https://www.yourwebsite.com/video.mp4",
+      "embedUrl": "https://www.youtube.com/embed/your-video-id"
+    },
+    {
+      "@type": "HowTo",
+      "name": "How to Get Started with Our Services",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Sign Up",
+          "text": "Create an account on our platform by clicking the Sign-Up button.",
+          "image": "https://www.yourwebsite.com/signup.png"
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Choose a Service",
+          "text": "Browse our services and select the one that fits your needs.",
+          "image": "https://www.yourwebsite.com/services.png"
+        }
+      ]
+    },
+    {
+      "@type": "WebPageElement",
+      "name": "Hero Banner",
+      "cssSelector": ".hero-section",
+      "about": "This is the main banner of the homepage featuring key services."
+    },
+    {
+      "@type": "WebPageElement",
+      "name": "Testimonials",
+      "cssSelector": ".testimonials-section",
+      "about": "Customer reviews and feedback."
+    },
+    {
+      "@type": "SiteNavigationElement",
+      "name": "Main Navigation",
+      "url": [
+        "https://www.yourwebsite.com/",
+        "https://www.yourwebsite.com/about-us",
+        "https://www.yourwebsite.com/products",
+        "https://www.yourwebsite.com/blog",
+        "https://www.yourwebsite.com/contact"
+      ]
+    }
+  ]
+}
