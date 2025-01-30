@@ -1,0 +1,109 @@
+{
+  "@context": "http://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "name": "About Us",
+      "url": "https://www.yourwebsite.com/about-us",
+      "description": "Learn more about our mission, values, and the team behind our website.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Your Company Name",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.yourwebsite.com/logo.png"
+        }
+      }
+    },
+    {
+      "@type": "Organization",
+      "name": "Your Company Name",
+      "url": "https://www.yourwebsite.com",
+      "logo": "https://www.yourwebsite.com/logo.png",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-800-123-4567",
+        "contactType": "Customer Service",
+        "areaServed": "US",
+        "availableLanguage": "English"
+      },
+      "sameAs": [
+        "https://www.facebook.com/yourcompany",
+        "https://twitter.com/yourcompany",
+        "https://www.linkedin.com/company/yourcompany"
+      ]
+    },
+    {
+      "@type": "Person",
+      "name": "John Doe",
+      "jobTitle": "CEO",
+      "image": "https://www.yourwebsite.com/john-doe.jpg",
+      "url": "https://www.yourwebsite.com/team/john-doe",
+      "sameAs": [
+        "https://www.linkedin.com/in/john-doe",
+        "https://twitter.com/john-doe"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is your company's mission?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our mission is to provide the best educational tools to students worldwide."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where is your company based?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We are based in New York City, USA."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.yourwebsite.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "About Us",
+          "item": "https://www.yourwebsite.com/about-us"
+        }
+      ]
+    },
+    {
+      "@type": "VideoObject",
+      "name": "About Us Video",
+      "description": "Watch this video to learn more about our company's mission, values, and team.",
+      "thumbnailUrl": "https://www.yourwebsite.com/about-us-video-thumbnail.jpg",
+      "uploadDate": "2024-01-30T10:00:00+00:00",
+      "contentUrl": "https://www.yourwebsite.com/about-us-video.mp4",
+      "embedUrl": "https://www.youtube.com/embed/your-video-id"
+    },
+    {
+      "@type": "ContactPage",
+      "mainEntity": {
+        "@type": "Organization",
+        "name": "Your Company Name",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+1-800-123-4567",
+          "contactType": "Customer Service",
+          "areaServed": "US",
+          "availableLanguage": "English"
+        }
+      }
+    }
+  ]
+}
